@@ -1,0 +1,10 @@
+Framework,Precision,Recall,F1 Score,F1 CI,Hallucination Rate,Dataset
+VICTOR (No BM25),0.217,0.981,0.356,[0.291-0.425],0.783,FEVER
+VICTOR (No Revision),0.231,0.963,0.373,[0.292-0.437],0.769,FEVER
+VICTOR (No Abstention),0.231,0.963,0.373,[0.303-0.441],0.769,FEVER
+VICTOR (No BM25),0.5,0.942,0.653,[0.599-0.703],0.5,HaluEval
+VICTOR (No Revision),0.575,0.892,0.699,[0.640-0.755],0.425,HaluEval
+VICTOR (No Abstention),0.575,0.892,0.699,[0.641-0.751],0.425,HaluEval
+VICTOR (No BM25),0.807,0.893,0.848,[0.809-0.879],0.193,TruthfulQA
+VICTOR (No Revision),0.821,0.934,0.874,[0.837-0.908],0.179,TruthfulQA
+VICTOR (No Abstention),0.821,0.934,0.874,[0.833-0.907],0.179,TruthfulQA
