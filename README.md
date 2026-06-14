@@ -1,7 +1,7 @@
 # VICTOR: Verification with Intelligent Confidence Thresholding and Optimal Retrieval
 
-[![Paper](https://img.shields.io/badge/Paper-Computers%20%26%20Electrical%20Engineering-blue)](https://www.sciencedirect.com/journal/computers-and-electrical-engineering)
-[![Zenodo](https://img.shields.io/badge/Zenodo-DOI-green)](https://doi.org/10.5281/zenodo.XXXXXXX)
+
+[![Zenodo](https://img.shields.io/badge/Zenodo-DOI-green)](https://doi.org/10.5281/zenodo.20687872)
 
 VICTOR is an uncertainty-driven adaptive verification framework for mitigating hallucinations in LLM outputs. It operates at the claim level, combining token-level entropy estimation, BM25-based retrieval, LLM verification, revision, and abstention in a single pipeline.
 
@@ -78,8 +78,8 @@ Results are saved to the `results/` folder:
 
 ## Citation
 
-If you use this code, please cite:
-
+Code and results: https://github.com/77samuel/Victor
+Zenodo archive: https://doi.org/10.5281/zenodo.20687872
 ```
 Samuel Stephen, R. Vignesh. Uncertainty-Guided Claim-Level Verification with 
 Adaptive Retrieval for Hallucination Mitigation in LLMs. 
